@@ -20,10 +20,9 @@
  
 // Завдання 3
 // var mass = [42, 2, 33, 11, 12, 10, 0];
-// var sum = 0;
-// for (var i = 0; i < mass.length; i++) {
-//     sum += mass[i];
-// }
+// var sum = mass.reduce(function (accumulator, currentValue) {
+//     return accumulator + currentValue;
+// }, 0);
 // var average = Math.floor(sum / mass.length);
 // console.log(average);
 
@@ -35,9 +34,9 @@
 // console.log(totalLength);
 
 // Завдання 5
-var mixedArray = ["parrot", 140, "bull", true, 0, "bear", 47, "monkey"];
-var stringArray = mixedArray.filter(function (element) {
-    return typeof element === 'string';
-});
+// var mixedArray = ["parrot", 140, "bull", true, 0, "bear", 47, "monkey"];
+// var stringArray = mixedArray.filter(function (element) {
+//     return typeof element === 'string';
+// });
 
-console.log(stringArray);
+// console.log(stringArray);
